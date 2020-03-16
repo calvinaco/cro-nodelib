@@ -93,10 +93,3 @@ jobs:
                 cargo-audit -h || cargo install cargo-audit
               - npm run lint || travis_terminate 1
               - npm run audit || travis_terminate 1
-        - stage: Integration Test
-          name: Integration Test
-          <<: *rust
-          script:
-              - npm install
-              - npm run build
-              - ./ci-scripts/run-integration-tests.sh

@@ -43,7 +43,7 @@ describe('transfer', () => {
                 network,
             }),
         ).to.eq(
-            'dcro1c2rf4zk2qpu0trpehtcw5532h2qe4yst6gpc9y4gvevd0eygjjnsj9cayy',
+            'dcro1e9fkynhzh70ve3gsuk6uy3yrye34spsphpztpm5ua4g5turtkmsswm9ly4',
         );
     });
 
@@ -62,7 +62,7 @@ describe('transfer', () => {
                 network,
             }),
         ).to.eq(
-            'dcro1c2rf4zk2qpu0trpehtcw5532h2qe4yst6gpc9y4gvevd0eygjjnsj9cayy',
+            'dcro1e9fkynhzh70ve3gsuk6uy3yrye34spsphpztpm5ua4g5turtkmsswm9ly4',
         );
     });
 
@@ -79,7 +79,7 @@ describe('transfer', () => {
                 network,
             }),
         ).to.eq(
-            'cro122spn782r9semev0cepr3a0nclst9yqhsxdfcylyv7ln9cwqal4swarmsv',
+            'cro1csnjml9attwczsjwjvm6nxh0pw9flgdllvct9dzlw6vkau4epfjqtf4z4m',
         );
     });
 });
